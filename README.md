@@ -42,7 +42,7 @@ We used a convolutional autoencoder to reduce dimension of input CSI. The Auto e
 We trained a deep convolutional network on both labelled and unlabelled sets. We used sammon mapping algorithm to train on unlabelled dataset. Pairs were selected from unlabelled set and the network was backpropogated to keep distance between CSI and position proportional by a trainable parameter α. The same network was also trained via supervised means on labelled set. Implementation is available [here](SiameseNN.ipynb)
 
 #### TRRS (Self Supervised)
-We tried labelling unlabelled data using TRRS and train a network on both labelled and unlabelled(Now self labelled) sets. However performance of TRRS in labelling wasn't accurate enough on this dataset. Implementation is available [here](TRRS.ipynb)
+We tried labelling unlabelled data using TRRS and train a network on both labelled and unlabelled(Now self labelled) sets. However performance of TRRS in labelling wasn't accurate enough on this dataset. Implementation is available [here](TRRS_2020.ipynb)
 
 
 #### Performance
